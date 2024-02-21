@@ -35,8 +35,8 @@
     </tr>
     <tr>
             <td> User Agent </td>
-            <td> <%= request.getHeader("user-agent")%></td>
-	    <td> </td>
+            <td> <%= request.getHeader("user-agent")%> </td>
+	    <td> Hello World </td>
             <td> IP Address </td>
             <td> <%= request.getRemoteAddr()%></td>
     </tr>
