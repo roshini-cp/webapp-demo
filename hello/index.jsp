@@ -39,7 +39,7 @@
 	    <td> Hello World </td>
             <td> IP Address </td>
             <td> <%= request.getRemoteAddr()%></td>
-<td> Welcome to 2024</td>
+            <td> Welcome to 2024</td>
     </tr>
 </table>
 
