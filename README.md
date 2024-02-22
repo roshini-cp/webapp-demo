@@ -10,4 +10,4 @@ http://localhost:8888/webapp
 
 To access to this webapp use
 
-http://testlb-lb-1268604989.ap-south-1.elb.amazonaws.com/webapp
+http://testl-lb-1268604989.ap-south-1.elb.amazonaws.com/webapp
