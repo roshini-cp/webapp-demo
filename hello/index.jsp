@@ -34,14 +34,19 @@
       <td><%= application.getServerInfo() %></td>
     </tr>
     <tr>
-            <td> User Agent </td>
-            <td> <%= request.getHeader("user-agent")%> </td>
-	    <td> Hello World </td>
-            <td> IP Address </td>
-            <td> <%= request.getRemoteAddr()%></td>
-            <td> Welcome to 2024</td>
+	<td> User Agent </td>
+        <td> <%= request.getHeader("user-agent")%> </td>
     </tr>
+     <tr>
+	<td> Hello World </td>
+     </tr>
+      <tr>
+	<td> IP Address </td>   
+      <td> <%= request.getRemoteAddr()%> </td>
+     </tr>
+     <tr>
+       <td> Welcome to 2024</td>
+     </tr>
 </table>
-
 </body>
 </html>
